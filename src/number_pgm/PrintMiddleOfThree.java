@@ -9,9 +9,21 @@ public class PrintMiddleOfThree {
 		Scanner s=new Scanner(System.in);
 		for(int i=1;i<=3;i++)
 		{
-		int num1=s.nextInt();
-		int num2=s.nextInt();
-		int num3=s.nextInt();
+		int a=s.nextInt();
+		int b=s.nextInt();
+		int c=s.nextInt();
+		if(a<b&&b<c||c<b&&b<a)
+		{
+			System.out.println("Middle is "+b);
+		}
+		else if(b<a&&a<c||c<a&&a<b)
+		{
+			System.out.println("Middle is "+a);
+		}
+		else
+		{
+			System.out.println("Middle is "+c);
+		}	
 		}
 		}
 
