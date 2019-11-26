@@ -2,7 +2,7 @@ package number_pgm;
 
 import java.util.Scanner;
 
-public class BigggestOfTwo {
+public class BigggestOfTwo_01 {
 
 	public static void main(String[] args) {
 		System.out.println("Enter two numbers");

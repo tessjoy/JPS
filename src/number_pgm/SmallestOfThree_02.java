@@ -2,7 +2,7 @@ package number_pgm;
 
 import java.util.Scanner;
 
-public class SmallestOfThree {
+public class SmallestOfThree_02 {
 
 	public static void main(String[] args) {
 		System.out.println("Enter three numbers");

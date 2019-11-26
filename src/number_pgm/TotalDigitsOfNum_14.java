@@ -2,21 +2,19 @@ package number_pgm;
 
 import java.util.Scanner;
 
-public class SumofDigits1 {
+public class TotalDigitsOfNum_14 {
 
 	public static void main(String[] args) {
 		System.out.println("Enter the digit");
 		Scanner s=new Scanner(System.in);
 		int num=s.nextInt();
-		while(num/10!=0)
+		int count=0;
+		while(num>0)
 		{
-			int sum=0;
-			int x=num%10;
-			int y=num/10;
-			sum=sum+x+y;
-			num=sum;
+			num=num/10;
+			count++;
 		}
-		System.out.println(num);
+		System.out.println("total number of digits = "+count);
 	}
 
 }

@@ -2,7 +2,7 @@ package string_pgm;
 
 import java.util.Scanner;
 
-public class ReverseString {
+public class ReverseString_01 {
 
 	public static void main(String[] args) {
 		System.out.println("Enter the string which you want to reverse");
