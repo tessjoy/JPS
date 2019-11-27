@@ -1,12 +1,10 @@
 package number_pgm;
 
-import java.util.Scanner;
-
-public class Initial20Prime_22 {
+public class PrimeFrom100_25 {
 
 	public static void main(String[] args) {
-		
-		int count=1,num=1;
+		int count=1,num=100;
+		System.out.println("20 prime numbers from 100");
 		while(count<=20)
 		{
 			int i=2;

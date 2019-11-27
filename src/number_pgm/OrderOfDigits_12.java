@@ -8,24 +8,24 @@ public class OrderOfDigits_12 {
 		System.out.println("Enter the num");
 		Scanner s=new Scanner(System.in);
 		int num=s.nextInt();
-		boolean flag=false;
+		boolean flag=true;
 		int lastdigit=num%10;
 		num=num/10;
 		while(num>0)
 		{
 			if(lastdigit<=num%10)
 			{
-				flag=true;
+				flag=false;
 				break;
 				
 			}
 			lastdigit=num%10;
 			num=num/10;
 		}
-		if(flag)
-			System.out.println("Digits are not in increasing order");
+		if(flag==true)
+			System.out.println("Digits are in increasing order");
 		else
-			System.out.println("Digits are  in increasing order");
+			System.out.println("Digits are  not in increasing order");
 		
 
 	}

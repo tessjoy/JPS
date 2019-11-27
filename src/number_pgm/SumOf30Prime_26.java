@@ -1,31 +1,27 @@
 package number_pgm;
 
-import java.util.Scanner;
-
-public class Initial20Prime_22 {
+public class SumOf30Prime_26 {
 
 	public static void main(String[] args) {
-		
-		int count=1,num=1;
-		while(count<=20)
+		int count=1,num=1,sum=0;
+		while(count<=30)
 		{
 			int i=2;
 			while(num>=i)
 			{
 				if(num%i==0)
 					break;	
-				i++;
-				
+				i++;			
 			}
 		
 			if(i==num)
 				{
-				System.out.println(count+") "+num);
-					count++;
+				sum=sum+num;
+				count++;
 				}
 			num++;
-		
 		}
+		System.out.println("Sum of 1st 30 prime numbers is "+sum);
 		
 
 	}

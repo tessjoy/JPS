@@ -2,7 +2,7 @@ package number_pgm;
 
 import java.util.Scanner;
 
-public class Palinrome_17 {
+public class Palindrome_17 {
 
 	public static void main(String[] args) {
 		System.out.println("Enter the number");
