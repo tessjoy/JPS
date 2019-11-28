@@ -4,21 +4,13 @@ public class PrimeAfter3nonPrime_33 {
 
 	public static void main(String[] args) {
 		System.out.println("Prime immediately after 3 non prime");
-		for(int i=1;i<10;i++)
+		for(int i=5;i<10;i++)
 		{
 			int count=0;
-			int j=2;
-			while(i>j)
-			{
-				
+			for(int j=1;j<=i;j++)
 				if(i%j==0)
-				{
 					count++;
-					
-				}
-				j++;
-			}
-				if(count!=2&&i==j)
+				if(count!=2)
 				{
 					System.out.println(i);
 				}

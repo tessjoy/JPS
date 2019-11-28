@@ -2,7 +2,7 @@ package number_pgm;
 
 import java.util.Scanner;
 
-public class ReverseFirstHalf_18 {
+public class Move1stN2ndHalfOpp_49 {
 
 	public static void main(String[] args) {
 		System.out.println("Enter the number");
@@ -22,12 +22,15 @@ public class ReverseFirstHalf_18 {
 			a[i++]=n%10;
 			n=n/10;
 			}
-		System.out.println("reverse of 1st half");
-		for(int j=a.length/2;j<=a.length-1;j++)
+		System.out.println("Moving 1st to 2nd half and vice verse");
+		for(int j=a.length/2-1;j>=0;j--)
 		{
 			System.out.print(a[j]);
 		}
-
+		for(int j=a.length-1;j>=a.length/2;j--)
+		{
+			System.out.print(a[j]);
+		}
 
 	}
 

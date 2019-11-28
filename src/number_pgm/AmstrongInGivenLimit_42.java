@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class AmstrongInGivenLimit_42 {
 
 	public static void main(String[] args) {
-		
+		//Give limit as 100 and 400 we will get 153,370,371
 				System.out.println("Enter the lower limit");
 				Scanner s=new Scanner(System.in);
 				int lb=s.nextInt();
